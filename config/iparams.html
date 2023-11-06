@@ -10,7 +10,7 @@
 <body>
 <div class='form'>
   <form>
-    <input type='text' id="api_key" data-bind="product.api_key" placeholder='Git-access-token' />
+    <input type='text' id="api_key" data-bind="product.api_key" placeholder='Git-access-token'/>
     <input type='text' id="git_id" data-bind="product.git_id" placeholder='Git-id' />
     <input type='text' id="git_repo" data-bind="product.git_repo" placeholder='Git-repo-name' />
    
@@ -36,11 +36,11 @@ function validate() {
 
 function postConfigs() {
   //write your code here
-  console.log("hioo");
+  
   let api_value = document.getElementById("api_key").value;
   let id_value = document.getElementById("git_id").value;
   let repo_value = document.getElementById("git_repo").value;
-  console.log(api_value);
+  
   
 
   return {

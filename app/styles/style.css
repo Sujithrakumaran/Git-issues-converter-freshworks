@@ -14,3 +14,20 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+#ui_button{
+  height: 35px;
+  width: 150px;
+  background-color: rgb(105, 105, 136);
+  font-size: 13px;
+  font-weight: bolder;
+  border-radius: 7px;
+  border-color:  rgb(105, 105, 136);
+  color: white;
+  
+  
+}
+
+#ui_button:hover{
+  background-color: rgb(165, 165, 181);
+}
